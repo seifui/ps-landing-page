@@ -59,7 +59,7 @@ export default function TrustMarquee() {
     <section className="py-10 border-y border-white/5 bg-white/[0.01] overflow-hidden reveal">
       <div className="max-w-7xl mx-auto px-6 text-center mb-8">
         <p className="text-xs font-medium text-slate-500 tracking-wider uppercase">
-          Trusted by forward-thinking teams
+          Partnering with startups and growing teams
         </p>
       </div>
       

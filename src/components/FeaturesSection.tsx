@@ -4,10 +4,10 @@ export default function FeaturesSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16 md:text-center max-w-2xl md:mx-auto reveal">
           <h2 className="text-3xl md:text-4xl font-medium text-white mb-4 tracking-tight">
-            Intelligence built into every step.
+            What We Do
           </h2>
           <p className="text-slate-400 text-lg">
-            Stop managing tools and start managing work. Prezso Labs&apos;s AI handles the busy work so you can focus on shipping.
+            We design, build, and ship digital products from idea to launch by combining human-centered design with modern engineering and AI-assisted delivery.
           </p>
         </div>
 
@@ -27,9 +27,9 @@ export default function FeaturesSection() {
                 </g>
               </svg>
             </div>
-            <h3 className="text-lg font-medium text-white mb-2">AI Task Prioritization</h3>
+            <h3 className="text-lg font-medium text-white mb-2">Product Design</h3>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Automatically sorts your daily tasks based on deadlines, complexity, and team availability.
+              UX research, UI design, design systems, and product strategy that puts users first.
             </p>
           </div>
 
@@ -45,9 +45,9 @@ export default function FeaturesSection() {
                     </g>
                   </svg>
                 </div>
-                <h3 className="text-lg font-medium text-white mb-2">Smart Workflow Suggestions</h3>
+                <h3 className="text-lg font-medium text-white mb-2">Engineering</h3>
                 <p className="text-sm text-slate-400 leading-relaxed max-w-md">
-                  The AI analyzes bottlenecks in real-time and suggests instant optimizations to clear blockers before they become problems.
+                  Scalable web and mobile development using modern frameworks. Clean code, secure infrastructure, built to last.
                 </p>
               </div>
               <div className="flex-1 w-full bg-[#0A0A0C] border border-white/5 rounded-lg p-4 shadow-lg transform group-hover:translate-y-[-4px] transition-transform duration-500">
@@ -73,9 +73,9 @@ export default function FeaturesSection() {
                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3v18h18m-3-4V9m-5 8V5M8 17v-3"></path>
               </svg>
             </div>
-            <h3 className="text-lg font-medium text-white mb-2">Data-Driven Insights</h3>
+            <h3 className="text-lg font-medium text-white mb-2">AI-Driven Delivery</h3>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Visual analytics that show you exactly where your team excels and where time is being wasted.
+              Faster execution using AI-assisted workflows. Smart automation without losing craftsmanship.
             </p>
           </div>
 
@@ -86,9 +86,9 @@ export default function FeaturesSection() {
                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 10a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 14.286V4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2zm4-1a2 2 0 0 1 2 2v10.286a.71.71 0 0 1-1.212.502l-2.202-2.202A2 2 0 0 0 17.172 19H10a2 2 0 0 1-2-2v-1"></path>
               </svg>
             </div>
-            <h3 className="text-lg font-medium text-white mb-2">Integrated Chat</h3>
+            <h3 className="text-lg font-medium text-white mb-2">MVPs to Scale</h3>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Context-aware chat that links discussions directly to tasks, so no context is ever lost.
+              From early MVPs to production-ready platforms. Ship fast, iterate faster.
             </p>
           </div>
 
@@ -99,9 +99,9 @@ export default function FeaturesSection() {
                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.39 4.39a1 1 0 0 0 1.68-.474a2.5 2.5 0 1 1 3.014 3.015a1 1 0 0 0-.474 1.68l1.683 1.682a2.414 2.414 0 0 1 0 3.414L19.61 15.39a1 1 0 0 1-1.68-.474a2.5 2.5 0 1 0-3.014 3.015a1 1 0 0 1 .474 1.68l-1.683 1.682a2.414 2.414 0 0 1-3.414 0L8.61 19.61a1 1 0 0 0-1.68.474a2.5 2.5 0 1 1-3.014-3.015a1 1 0 0 0 .474-1.68l-1.683-1.682a2.414 2.414 0 0 1 0-3.414L4.39 8.61a1 1 0 0 1 1.68.474a2.5 2.5 0 1 0 3.014-3.015a1 1 0 0 1-.474-1.68l1.683-1.682a2.414 2.414 0 0 1 3.414 0z"></path>
               </svg>
             </div>
-            <h3 className="text-lg font-medium text-white mb-2">Seamless Integrations</h3>
+            <h3 className="text-lg font-medium text-white mb-2">Own Products Too</h3>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Works with GitHub, Slack, Figma, and Notion out of the box. Connect in seconds.
+              We build our own AI-powered products. Real-world learning informs everything we ship.
             </p>
           </div>
         </div>

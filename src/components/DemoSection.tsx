@@ -6,13 +6,13 @@ export default function DemoSection() {
       <div className="max-w-6xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-12 md:gap-20">
         <div className="flex-1 space-y-6 reveal">
           <div className="inline-block px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-medium">
-            Live Demo
+            Our Process
           </div>
           <h2 className="text-3xl md:text-4xl font-medium text-white tracking-tight">
-            Watch AI Optimize Your Day
+            How We Work
           </h2>
           <p className="text-slate-400 text-lg">
-            Hover over the task list to see how Prezso Labs analyzes complexity and suggests the optimal path forward.
+            A clear, collaborative approach that combines design thinking, engineering excellence, and AI-powered execution.
           </p>
           <ul className="space-y-4 pt-4">
             <li className="flex items-center gap-3 text-sm text-slate-300">
@@ -22,7 +22,7 @@ export default function DemoSection() {
                   <path d="m9 12l2 2l4-4"></path>
                 </g>
               </svg>
-              Real-time complexity analysis
+              Design First: Start with users and business goals
             </li>
             <li className="flex items-center gap-3 text-sm text-slate-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" className="text-emerald-400">
@@ -31,7 +31,7 @@ export default function DemoSection() {
                   <path d="m9 12l2 2l4-4"></path>
                 </g>
               </svg>
-              Automated resource allocation
+              Build Smart: Clean, scalable technology choices
             </li>
             <li className="flex items-center gap-3 text-sm text-slate-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" className="text-emerald-400">
@@ -40,7 +40,7 @@ export default function DemoSection() {
                   <path d="m9 12l2 2l4-4"></path>
                 </g>
               </svg>
-              Drag-and-drop reordering
+              Iterate Fast: Rapid feedback and continuous improvement
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@ export default function DemoSection() {
         <div className="flex-1 w-full reveal delay-200">
           <div className="bg-[#0e0e11] rounded-xl border border-white/10 p-6 shadow-2xl relative">
             <div className="flex justify-between items-center mb-6 border-b border-white/5 pb-4">
-              <span className="text-sm font-medium text-white">Today&apos;s Sprint</span>
+              <span className="text-sm font-medium text-white">Current Projects</span>
               <div className="flex gap-2">
                 <div className="w-3 h-3 rounded-full bg-red-500/20"></div>
                 <div className="w-3 h-3 rounded-full bg-yellow-500/20"></div>
@@ -68,8 +68,8 @@ export default function DemoSection() {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-sm text-slate-200 font-medium">Refactor Authentication Logic</p>
-                      <p className="text-xs text-slate-500 mt-1">Backend • Due Today</p>
+                      <p className="text-sm text-slate-200 font-medium">Design System Components</p>
+                      <p className="text-xs text-slate-500 mt-1">Design • In Progress</p>
                     </div>
                   </div>
                   <span className="px-2 py-0.5 rounded text-[10px] bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 group-hover:bg-indigo-500 group-hover:text-white transition-colors">
@@ -88,9 +88,9 @@ export default function DemoSection() {
                           <path d="M2 14h2m16 0h2m-7-1v2m-6-2v2"></path>
                         </g>
                       </svg>
-                      AI Tip:
+                      AI Insight:
                     </span>
-                    <span className="text-slate-400">Similar task completed by Sarah in 2h. Assigning to her improves throughput.</span>
+                    <span className="text-slate-400">Component library patterns from previous project can accelerate this by 40%.</span>
                   </div>
                 </div>
               </div>
@@ -101,8 +101,8 @@ export default function DemoSection() {
                   <div className="flex items-start gap-3">
                     <div className="mt-0.5 w-4 h-4 rounded border border-slate-600"></div>
                     <div>
-                      <p className="text-sm text-slate-300">Update User Documentation</p>
-                      <p className="text-xs text-slate-500 mt-1">Design • Due Tomorrow</p>
+                      <p className="text-sm text-slate-300">Mobile App Architecture</p>
+                      <p className="text-xs text-slate-500 mt-1">Engineering • Upcoming</p>
                     </div>
                   </div>
                 </div>

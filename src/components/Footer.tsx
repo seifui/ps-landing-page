@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="border-t border-white/5 bg-[#020203] py-12 text-sm reveal">
@@ -5,40 +7,42 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="flex text-[9px] font-bold text-white bg-gradient-to-tr from-indigo-500 to-purple-500 w-5 h-5 rounded items-center justify-center">
-                PS
-              </div>
-              <span className="font-semibold text-white tracking-tighter">PREZSO LABS</span>
+              <Image 
+                src="/logo.svg" 
+                alt="Prezso Labs" 
+                width={130} 
+                height={23}
+              />
             </div>
             <p className="text-slate-500 text-xs leading-relaxed">
-              AI That Connects Your Team Smarter. Built for the future of remote work.
+              Prezso Labs is an AI-powered product studio building modern digital experiences through design, engineering, and intelligent workflows.
             </p>
           </div>
           <div>
-            <h4 className="text-white font-medium mb-4">Product</h4>
+            <h4 className="text-white font-medium mb-4">Services</h4>
             <ul className="space-y-2 text-slate-500">
               <li className="font-jakarta rounded-full">
-                <a href="#" className="hover:text-white transition-colors">Features</a>
+                <a href="#" className="hover:text-white transition-colors">Product Design</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Pricing</a>
+                <a href="#" className="hover:text-white transition-colors">Engineering</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Changelog</a>
+                <a href="#" className="hover:text-white transition-colors">AI Delivery</a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-white font-medium mb-4">Company</h4>
+            <h4 className="text-white font-medium mb-4">Studio</h4>
             <ul className="space-y-2 text-slate-500">
               <li>
-                <a href="#" className="hover:text-white transition-colors">About</a>
+                <a href="#" className="hover:text-white transition-colors">About Us</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Blog</a>
+                <a href="#" className="hover:text-white transition-colors">Our Work</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Careers</a>
+                <a href="#" className="hover:text-white transition-colors">Process</a>
               </li>
             </ul>
           </div>

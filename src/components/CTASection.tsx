@@ -3,10 +3,10 @@ export default function CTASection() {
     <section id="join" className="py-24 relative overflow-hidden">
       <div className="z-10 reveal text-center max-w-4xl mr-auto ml-auto pr-6 pl-6 relative">
         <h2 className="text-4xl md:text-5xl font-medium text-white tracking-tight mb-6">
-          Ready to work smarter?
+          Have an idea or product in mind?
         </h2>
         <p className="text-slate-400 text-lg mb-10">
-          Join the waiting list today and get our free guide on &quot;AI-First Productivity&quot;.
+          Let&apos;s build something meaningful together.
         </p>
         
         <form className="max-w-md mx-auto relative flex items-center">
@@ -25,10 +25,10 @@ export default function CTASection() {
             type="button" 
             className="absolute right-1.5 top-1.5 bottom-1.5 px-5 bg-white text-black text-xs font-semibold rounded-full hover:bg-slate-200 transition-colors"
           >
-            Claim Your Spot
+            Talk to Us
           </button>
         </form>
-        <p className="text-[10px] text-slate-600 mt-4">No spam, ever. Unsubscribe anytime.</p>
+        <p className="text-[10px] text-slate-600 mt-4">We&apos;ll respond within 24 hours.</p>
       </div>
       
       {/* Background Accents */}

@@ -11,20 +11,20 @@ export default function HeroSection() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
             </span>
-            v2.0 Beta is live
+            AI-Powered Product Studio
           </div>
 
           <h1 className="reveal delay-100 text-5xl md:text-7xl font-medium tracking-tight text-white mb-6 leading-[1.1] title-gradient">
-            Supercharge Your Team&apos;s <br className="hidden md:block" /> Productivity with AI.
+            Where AI Meets Design to <br className="hidden md:block" /> Build Digital Products
           </h1>
 
           <p className="reveal delay-200 text-lg md:text-xl text-slate-400 max-w-2xl mb-10 leading-relaxed font-light">
-            Prezso Labs seamlessly integrates with your workflow to make collaboration smarter, faster, and completely intuitive.
+            Prezso Labs is an AI-powered product studio crafting web apps, mobile apps, and digital platforms with speed, clarity, and precision.
           </p>
 
           <div className="reveal delay-300 flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
             <button className="w-full sm:w-auto group relative px-8 py-3.5 bg-white text-black text-sm font-semibold rounded-full hover:bg-slate-100 transition-all duration-300 shadow-[0_0_20px_-5px_rgba(255,255,255,0.3)]">
-              Get Early Access
+              Start a Project
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" className="inline ml-1 group-hover:translate-x-0.5 transition-transform">
                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14m-7-7l7 7l-7 7"></path>
               </svg>
@@ -36,7 +36,7 @@ export default function HeroSection() {
                   <circle cx="12" cy="12" r="10"></circle>
                 </g>
               </svg>
-              See How It Works
+              See Our Work
             </button>
           </div>
         </div>
@@ -85,7 +85,7 @@ export default function HeroSection() {
                 <div className="mt-auto pt-4 border-t border-white/5">
                   <div className="flex items-center gap-3">
                     <div className="w-6 h-6 rounded-full bg-gradient-to-br from-purple-500 to-blue-500"></div>
-                    <div className="hidden md:block text-xs text-slate-400">Neura AI Active</div>
+                    <div className="hidden md:block text-xs text-slate-400">AI Assistant</div>
                   </div>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function HeroSection() {
                   <div>
                     <div className="h-4 w-32 bg-white/10 rounded mb-2"></div>
                     <div className="h-8 w-64 bg-white/5 rounded border border-white/5 flex items-center px-3">
-                      <span className="text-xs text-slate-500">Ask Neura AI to optimize schedule...</span>
+                      <span className="text-xs text-slate-500">Design thinking meets AI delivery...</span>
                     </div>
                   </div>
                   <div className="flex gap-2">
@@ -108,7 +108,7 @@ export default function HeroSection() {
                       </svg>
                     </div>
                     <div className="h-8 w-24 bg-indigo-600/20 border border-indigo-500/30 rounded-full flex items-center justify-center text-[10px] text-indigo-300">
-                      + New Project
+                      + New Design
                     </div>
                   </div>
                 </div>
@@ -124,14 +124,14 @@ export default function HeroSection() {
                             <circle cx="4" cy="20" r="2"></circle>
                           </g>
                         </svg>
-                        <span className="text-xs font-medium text-white">Workflow Suggestion</span>
+                        <span className="text-xs font-medium text-white">AI Suggestion</span>
                       </div>
                       <span className="text-[10px] text-slate-500">Just now</span>
                     </div>
                     <p className="text-sm text-slate-300 mb-4 leading-relaxed">
-                      Based on team velocity, moving &quot;Q4 Roadmap&quot; to
-                      <span className="text-white border-b border-indigo-500/50"> Sprint B</span> will increase
-                      completion probability by 24%.
+                      Based on project scope, adding
+                      <span className="text-white border-b border-indigo-500/50"> user research sprint</span> will improve
+                      feature clarity by 32% before development.
                     </p>
                     <div className="flex gap-2">
                       <button className="px-3 py-1.5 bg-indigo-500 hover:bg-indigo-600 text-white text-[10px] rounded transition-colors">Apply Change</button>
@@ -140,8 +140,8 @@ export default function HeroSection() {
                   </div>
 
                   <div className="glass-panel rounded-lg p-5 flex flex-col justify-between">
-                    <span className="text-xs text-slate-500">Productivity Score</span>
-                    <div className="text-3xl font-medium text-white tracking-tight mt-2">94.2</div>
+                    <span className="text-xs text-slate-500">Project Velocity</span>
+                    <div className="text-3xl font-medium text-white tracking-tight mt-2">92.8</div>
                     <div className="flex items-center gap-1 mt-2 text-[10px] text-emerald-400">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
                         <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
@@ -149,16 +149,16 @@ export default function HeroSection() {
                           <path d="m22 7l-8.5 8.5l-5-5L2 17"></path>
                         </g>
                       </svg>
-                      <span>+12% this week</span>
+                      <span>+18% this sprint</span>
                     </div>
                     <div className="mt-4 h-1 w-full bg-white/5 rounded-full overflow-hidden">
-                      <div className="h-full w-[94%] bg-gradient-to-r from-emerald-500 to-teal-500"></div>
+                      <div className="h-full w-[93%] bg-gradient-to-r from-emerald-500 to-teal-500"></div>
                     </div>
                   </div>
 
                   <div className="col-span-3 glass-panel rounded-lg p-5">
                     <div className="flex justify-between items-center mb-4">
-                      <span className="text-xs font-medium text-white">Prioritized Tasks</span>
+                      <span className="text-xs font-medium text-white">Active Deliverables</span>
                       <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" className="text-slate-500 cursor-pointer hover:text-white">
                         <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                           <circle cx="12" cy="12" r="1"></circle>
@@ -172,12 +172,12 @@ export default function HeroSection() {
                         <div className="w-4 h-4 rounded border border-indigo-500/50 flex items-center justify-center">
                           <div className="w-2 h-2 bg-indigo-500 rounded-[1px] opacity-0 group-hover/task:opacity-100 transition-opacity"></div>
                         </div>
-                        <span className="text-xs text-slate-300 flex-1">Review API Documentation</span>
+                        <span className="text-xs text-slate-300 flex-1">Finalize Design System</span>
                         <div className="px-2 py-0.5 rounded-full bg-red-500/10 text-red-400 text-[10px] border border-red-500/20">High</div>
                       </div>
                       <div className="flex items-center gap-3 p-2 hover:bg-white/5 rounded transition-colors group/task cursor-pointer">
                         <div className="w-4 h-4 rounded border border-white/20 flex items-center justify-center"></div>
-                        <span className="text-xs text-slate-400 flex-1">Update design system tokens</span>
+                        <span className="text-xs text-slate-400 flex-1">Ship MVP features</span>
                         <div className="px-2 py-0.5 rounded-full bg-yellow-500/10 text-yellow-400 text-[10px] border border-yellow-500/20">Medium</div>
                       </div>
                     </div>

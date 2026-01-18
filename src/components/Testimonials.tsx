@@ -1,21 +1,21 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      quote: "Prezso Labs totally changed how we handle sprints. The AI suggestions are surprisingly accurate and have saved us hours of planning time every week.",
+      quote: "Prezso Labs brought clarity and speed to our product vision. They took our idea from concept to MVP in record time without sacrificing quality.",
       name: "Alex Chen",
-      title: "CTO, DevScale",
+      title: "Founder, Streamline",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=faces"
     },
     {
-      quote: "The interface is stunning, but the backend AI is where the magic happens. It feels like having a project manager who never sleeps.",
+      quote: "Their design thinking paired with engineering rigor is rare. The team delivered a scalable platform that our users love.",
       name: "Sarah Miller",
-      title: "Product Lead, Streamline",
+      title: "Product Lead, Nova",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=faces"
     },
     {
-      quote: "We've tried every tool out there. Nothing integrates this smoothly with our existing stack while adding actual intelligence.",
+      quote: "They don't just build what you ask for—they challenge assumptions and deliver what you actually need. True product partners.",
       name: "James Wilson",
-      title: "Founder, NextGen",
+      title: "CTO, TechFlow",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=faces"
     }
   ];
@@ -29,7 +29,7 @@ export default function Testimonials() {
   return (
     <section className="py-24 max-w-7xl mx-auto px-6">
       <h2 className="text-2xl font-medium text-center text-white mb-16 tracking-tight reveal">
-        Loved by remote teams worldwide
+        Trusted by founders and product leaders
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {testimonials.map((testimonial, index) => (

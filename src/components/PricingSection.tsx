@@ -10,79 +10,79 @@ export default function PricingSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16 reveal">
           <h2 className="text-3xl font-medium text-white mb-4 tracking-tight">
-            Simple, transparent pricing
+            Why Prezso Labs
           </h2>
-          <p className="text-slate-400">Start for free, scale when you need to.</p>
+          <p className="text-slate-400">What sets us apart in building digital products.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {/* Starter */}
+          {/* AI-Powered */}
           <div className="p-8 rounded-2xl border border-white/5 bg-[#0A0A0C] reveal delay-100">
-            <h3 className="text-lg font-medium text-white">Starter</h3>
-            <p className="text-sm text-slate-500 mb-6">For individuals</p>
-            <div className="text-3xl font-medium text-white mb-6">$0</div>
+            <h3 className="text-lg font-medium text-white">AI-Powered</h3>
+            <p className="text-sm text-slate-500 mb-6">Smart workflows</p>
+            <div className="text-3xl font-medium text-white mb-6">⚡</div>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-2 text-sm text-slate-400">
-                <span className="text-slate-600"><CheckIcon /></span> 3 Projects
+                <span className="text-indigo-400"><CheckIcon /></span> Faster execution
               </li>
               <li className="flex items-center gap-2 text-sm text-slate-400">
-                <span className="text-slate-600"><CheckIcon /></span> Basic AI suggestions
+                <span className="text-indigo-400"><CheckIcon /></span> Smart automation
               </li>
               <li className="flex items-center gap-2 text-sm text-slate-400">
-                <span className="text-slate-600"><CheckIcon /></span> Community Support
+                <span className="text-indigo-400"><CheckIcon /></span> Without losing craft
               </li>
             </ul>
             <button className="w-full py-2 rounded-lg border border-white/10 text-white text-sm hover:bg-white/5 transition-colors">
-              Current Plan
+              Learn More
             </button>
           </div>
 
-          {/* Pro */}
+          {/* Design + Engineering */}
           <div className="p-8 rounded-2xl border border-indigo-500/30 bg-[#0E0E12] relative reveal delay-200">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-indigo-500 text-[10px] text-white font-medium">
-              Most Popular
+              Our Core
             </div>
-            <h3 className="text-lg font-medium text-white">Pro</h3>
-            <p className="text-sm text-slate-500 mb-6">For small teams</p>
+            <h3 className="text-lg font-medium text-white">UX + Engineering</h3>
+            <p className="text-sm text-slate-500 mb-6">Full-stack excellence</p>
             <div className="text-3xl font-medium text-white mb-6">
-              $12<span className="text-sm text-slate-500 font-normal">/mo</span>
+              ✦
             </div>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-2 text-sm text-slate-300">
-                <span className="text-indigo-400"><CheckIcon /></span> Unlimited Projects
+                <span className="text-indigo-400"><CheckIcon /></span> Strong UX foundation
               </li>
               <li className="flex items-center gap-2 text-sm text-slate-300">
-                <span className="text-indigo-400"><CheckIcon /></span> Advanced AI Insights
+                <span className="text-indigo-400"><CheckIcon /></span> Scalable engineering
               </li>
               <li className="flex items-center gap-2 text-sm text-slate-300">
-                <span className="text-indigo-400"><CheckIcon /></span> Integrations
+                <span className="text-indigo-400"><CheckIcon /></span> Modern tech stack
               </li>
             </ul>
             <button className="w-full py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-sm transition-colors shadow-lg shadow-indigo-500/20">
-              Join Beta
+              Start a Project
             </button>
           </div>
 
-          {/* Business */}
+          {/* Communication */}
           <div className="p-8 rounded-2xl border border-white/5 bg-[#0A0A0C] reveal delay-300">
-            <h3 className="text-lg font-medium text-white">Business</h3>
-            <p className="text-sm text-slate-500 mb-6">For organizations</p>
+            <h3 className="text-lg font-medium text-white">Clear Process</h3>
+            <p className="text-sm text-slate-500 mb-6">Transparent delivery</p>
             <div className="text-3xl font-medium text-white mb-6">
-              $29<span className="text-sm text-slate-500 font-normal">/mo</span>
+              ◆
             </div>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-2 text-sm text-slate-400">
-                <span className="text-slate-600"><CheckIcon /></span> SSO &amp; Security
+                <span className="text-indigo-400"><CheckIcon /></span> Clear communication
               </li>
               <li className="flex items-center gap-2 text-sm text-slate-400">
-                <span className="text-slate-600"><CheckIcon /></span> Dedicated Success Manager
+                <span className="text-indigo-400"><CheckIcon /></span> Rapid iteration
               </li>
               <li className="flex items-center gap-2 text-sm text-slate-400">
-                <span className="text-slate-600"><CheckIcon /></span> Custom AI Models
+                <span className="text-indigo-400"><CheckIcon /></span> On-time delivery
               </li>
             </ul>
             <button className="w-full py-2 rounded-lg border border-white/10 text-white text-sm hover:bg-white/5 transition-colors">
-              Contact Sales
+              Our Process
             </button>
           </div>
         </div>
