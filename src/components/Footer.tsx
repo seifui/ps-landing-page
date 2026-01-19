@@ -22,13 +22,13 @@ export default function Footer() {
             <h4 className="text-white font-medium mb-4">Services</h4>
             <ul className="space-y-2 text-slate-500">
               <li className="font-jakarta rounded-full">
-                <a href="#" className="hover:text-white transition-colors">Product Design</a>
+                <a href="/product-design" className="hover:text-white transition-colors">Product Design</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Engineering</a>
+                <a href="/engineering" className="hover:text-white transition-colors">Engineering</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">AI Delivery</a>
+                <a href="/ai-delivery" className="hover:text-white transition-colors">AI Delivery</a>
               </li>
             </ul>
           </div>
@@ -36,13 +36,16 @@ export default function Footer() {
             <h4 className="text-white font-medium mb-4">Studio</h4>
             <ul className="space-y-2 text-slate-500">
               <li>
-                <a href="#" className="hover:text-white transition-colors">About Us</a>
+                <a href="/about" className="hover:text-white transition-colors">About Us</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Our Work</a>
+                <a href="/work" className="hover:text-white transition-colors">Our Work</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Process</a>
+                <a href="/process" className="hover:text-white transition-colors">Process</a>
+              </li>
+              <li>
+                <a href="/careers" className="hover:text-white transition-colors">Careers</a>
               </li>
             </ul>
           </div>
@@ -50,13 +53,13 @@ export default function Footer() {
             <h4 className="text-white font-medium mb-4">Legal</h4>
             <ul className="space-y-2 text-slate-500">
               <li>
-                <a href="#" className="hover:text-white transition-colors">Privacy</a>
+                <a href="/privacy" className="hover:text-white transition-colors">Privacy</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Terms</a>
+                <a href="/terms" className="hover:text-white transition-colors">Terms</a>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">Security</a>
+                <a href="/security" className="hover:text-white transition-colors">Security</a>
               </li>
             </ul>
           </div>
