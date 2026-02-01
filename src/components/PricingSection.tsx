@@ -1,4 +1,15 @@
+'use client';
+
+import Link from 'next/link';
+
 export default function PricingSection() {
+  const scrollToContact = () => {
+    const element = document.getElementById('join');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const CheckIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24">
       <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 6L9 17l-5-5"></path>
@@ -32,9 +43,9 @@ export default function PricingSection() {
                 <span className="text-indigo-400"><CheckIcon /></span> Without losing craft
               </li>
             </ul>
-            <button className="w-full py-2 rounded-lg border border-white/10 text-white text-sm hover:bg-white/5 transition-colors">
+            <Link href="/ai-delivery" className="block w-full py-2 rounded-lg border border-white/10 text-white text-sm hover:bg-white/5 transition-colors text-center">
               Learn More
-            </button>
+            </Link>
           </div>
 
           {/* Design + Engineering */}
@@ -58,7 +69,10 @@ export default function PricingSection() {
                 <span className="text-indigo-400"><CheckIcon /></span> Modern tech stack
               </li>
             </ul>
-            <button className="w-full py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-sm transition-colors shadow-lg shadow-indigo-500/20">
+            <button 
+              onClick={scrollToContact}
+              className="w-full py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-sm transition-colors shadow-lg shadow-indigo-500/20"
+            >
               Start a Project
             </button>
           </div>
@@ -81,9 +95,9 @@ export default function PricingSection() {
                 <span className="text-indigo-400"><CheckIcon /></span> On-time delivery
               </li>
             </ul>
-            <button className="w-full py-2 rounded-lg border border-white/10 text-white text-sm hover:bg-white/5 transition-colors">
+            <Link href="/process" className="block w-full py-2 rounded-lg border border-white/10 text-white text-sm hover:bg-white/5 transition-colors text-center">
               Our Process
-            </button>
+            </Link>
           </div>
         </div>
       </div>

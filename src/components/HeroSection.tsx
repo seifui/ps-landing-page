@@ -1,4 +1,15 @@
+'use client';
+
+import Link from 'next/link';
+
 export default function HeroSection() {
+  const scrollToContact = () => {
+    const element = document.getElementById('join');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="md:pt-48 md:pb-32 overflow-hidden pt-32 pb-20 relative">
       {/* Background Glow */}
@@ -23,13 +34,19 @@ export default function HeroSection() {
           </p>
 
           <div className="reveal delay-300 flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-            <button className="w-full sm:w-auto group relative px-8 py-3.5 bg-white text-black text-sm font-semibold rounded-full hover:bg-slate-100 transition-all duration-300 shadow-[0_0_20px_-5px_rgba(255,255,255,0.3)]">
+            <button 
+              onClick={scrollToContact}
+              className="w-full sm:w-auto group relative px-8 py-3.5 bg-white text-black text-sm font-semibold rounded-full hover:bg-slate-100 transition-all duration-300 shadow-[0_0_20px_-5px_rgba(255,255,255,0.3)]"
+            >
               Start a Project
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" className="inline ml-1 group-hover:translate-x-0.5 transition-transform">
                 <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h14m-7-7l7 7l-7 7"></path>
               </svg>
             </button>
-            <button className="w-full sm:w-auto px-8 py-3.5 bg-transparent border border-white/10 hover:border-white/20 text-white text-sm font-medium rounded-full transition-all duration-300 flex items-center justify-center gap-2">
+            <Link 
+              href="/work"
+              className="w-full sm:w-auto px-8 py-3.5 bg-transparent border border-white/10 hover:border-white/20 text-white text-sm font-medium rounded-full transition-all duration-300 flex items-center justify-center gap-2"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
                 <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
                   <path d="M9 9.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997A1 1 0 0 1 9 14.996z"></path>
@@ -37,7 +54,7 @@ export default function HeroSection() {
                 </g>
               </svg>
               See Our Work
-            </button>
+            </Link>
           </div>
         </div>
 
