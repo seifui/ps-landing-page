@@ -86,6 +86,15 @@ export default function Welcome() {
       {/* Hero Section - Team Member Introduction */}
       <section className="pt-32 pb-12 relative">
         <div className="max-w-4xl mx-auto px-6">
+          {/* Logo */}
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/icon.svg" 
+              alt="Prezso Labs" 
+              className="h-12 md:h-16"
+            />
+          </div>
+
           <div className="text-center mb-12 reveal">
             <h1 className="text-5xl md:text-6xl font-medium text-white mb-4 tracking-tight title-gradient">
               Welcome to the Team!
